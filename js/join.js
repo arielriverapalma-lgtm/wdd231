@@ -42,3 +42,17 @@ setupFooter();
 if (document.querySelector("#directory-wrapper")) {
     fetchMembers();
 }
+
+
+
+function setupFooter(){
+    const yearSpan = document.querySelector("#current-year");
+    if (yearSpan){
+        const currentYear = new Date().getFullYear();
+        yearSpan.textContent = currentYear;
+    }
+    const modificationSpan = document.querySelector(".last-modified");
+    if (modificationSpan){
+        modificationSpan.textContent = `Last Modified: ${document.lastModified}`;
+    }
+}

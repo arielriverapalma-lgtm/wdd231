@@ -1,0 +1,76 @@
+[
+    {
+        "name": "El Murciélago Beach",
+        "address": "Malecón de Manta",
+        "description": "El Murcielago is one of the most important beach of te city",
+        "image": "murcielago.webp"
+
+    },
+
+    {
+        "name": "Pacoche Forest",
+        "address": "Costa Arenal del Ecuador, Manta Manabi",
+        "description": "A beautiful natural reserve filled with diverse wildlife and winding hiking trails just waiting to be explored",
+        "image": "pacoche.webp"
+
+    },
+
+
+    {
+
+        "name": "San Lorenzo Scenic Viewpoint",
+        "address": "Ruta Spondylus",
+        "description": "San Lorenzo Lookout stands out as one of the must-visit spots in Manta. With its breathtaking panoramic views of the Pacific Ocean, it’s an ideal destination for sightseeing, snapping photos, and soaking in the beauty of nature. Guests can unwind while taking in the gorgeous coastal landscape.",
+        "image" : "san_lorenzo.webp"
+    },
+
+      {
+
+        "name": "Museo Centro Cultural Manta",
+        "address": "Av Malecon",
+        "description": "The Manta Cultural Center Museum is an amazing spot to dive into the history and culture of Manabí. Here, visitors can wander through fascinating ancient artifacts, captivating art exhibits, and discover the vibrant heritage of Ecuador.",
+        "image" : "museo_central_manta.webp"
+    },
+
+      {
+
+        "name": "Santa Marianita",
+        "address": "Ruta Spondylus",
+        "description": "Santa Marianita Beach is truly one of the gems close to Manta. With its powerful winds and breathtaking ocean vistas, it’s a favorite spot for kitesurfing, unwinding, and soaking in those incredible sunsets.",
+        "image" : "santa_marianita.webp"
+    },
+
+      {
+
+        "name": "Mega Parque Agustin Intriago Manta",
+        "address": "Via Puerto Aeropuerto",
+        "description": "Megapark Agustín Intriago is a vibrant, modern park located in Manta, featuring lush green spaces, fun playgrounds, and stunning views of the city. It's the perfect spot for families to enjoy some quality time together and engage in various outdoor activities.",
+        "image" : "mega_parque.webp"
+    },
+
+
+
+      {
+
+        "name": "Playita Mia",
+        "address": "Via Puerto Aeropuertp",
+        "description": "Playita Mía is a traditional coastal area in Manta where visitors can experience the city's fishing culture. It is known for its seafood market, local fishermen, and beautiful ocean views, making it a unique place to explore local life and traditions.",
+        "image" : "playita_mia.webp"
+    },
+
+
+      {
+
+        "name": "La Quadra",
+        "address": "Redondel de Barbasquillo",
+        "description": "La Quadra is a popular place in Manta where visitors can enjoy shopping, restaurants, and entertainment. It offers a modern and relaxing atmosphere for families and tourists.",
+        "image" : "quadra.webp"
+    }
+
+
+
+
+
+
+
+]

@@ -33,18 +33,18 @@ document.addEventListener("DOMContentLoaded", () => {
         localStorage.setItem("lastVisit", now);
     }
 
-     const cardsContainer = document.querySelector("#cards-container");
+     const cardsContainer = document.querySelector("#places-container");
     
     if (cardsContainer) {
         async function getMembers() {
             try {
-                const response = await fetch('data/members.json');
+                const response = await fetch('data/discover.json');
                 if (!response.ok) throw new Error("No se pudo cargar el archivo");
                 const data = await response.json();
                 
                 data.forEach(member => {
                     const card = document.createElement("section");
-                    card.classList.add("membership-levels");
+                    card.classList.add("place-card");
                     card.innerHTML = `
                         <img src="images/${member.image}" alt="${member.name}" loading="lazy" width="200" height="150">
                         <h3>${member.name}</h3>
@@ -61,3 +61,17 @@ document.addEventListener("DOMContentLoaded", () => {
         getMembers();
     }
 });
+
+
+
+function setupFooter(){
+    const yearSpan = document.querySelector("#current-year");
+    if (yearSpan){
+        const currentYear = new Date().getFullYear();
+        yearSpan.textContent = currentYear;
+    }
+    const modificationSpan = document.querySelector(".last-modified");
+    if (modificationSpan){
+        modificationSpan.textContent = `Last Modified: ${document.lastModified}`;
+    }
+}
